@@ -163,4 +163,9 @@ footer {
   background: var(--blue-background);
   text-align: center;
   padding: 24px;
+  /* uncomment to get fixed footer */
+  /* position: fixed; */
+  /* left: 0; */
+  /* bottom: 0; */
+  /* width: 100%; */
 }
