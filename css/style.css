@@ -3,6 +3,7 @@
   --blue-background: #1F2937;
 }
 
+
 body {
   font-family: "Roboto", sans-serif;
   margin: 0px;
@@ -45,12 +46,14 @@ a {
 }
 
 .signup {
+  flex: 0 0 auto;
   padding: 4px 25px;
   border-radius: 5px;
   background: #3882f6;
   border-style: solid;
   border-color: #3882f6;
   color: var(--white-text);
+  margin: 8px 0px;
 }
 
 .banner img {
@@ -123,4 +126,41 @@ figcaption {
   color: black;
   font-weight: 700;
   text-align: right;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 150px;
+}
+
+.call {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 32px 68px;
+  background: #3882f6;
+  border: solid 2px #3882f6;
+  border-radius: 5px;
+  min-width: 550px;
+  flex: 1 1 auto;
+}
+
+.call>.signup {
+  border: solid 2px var(--white-text)
+}
+
+h3,
+.action div {
+  margin: 0px;
+  color: var(--white-text);
+}
+
+footer {
+  color: var(--white-text);
+  background: var(--blue-background);
+  text-align: center;
+  padding: 24px;
 }
